@@ -13,11 +13,11 @@ def visit(request):
 def contact(request):
     return render(request, "core/contact.html")
 
-def home(request):
-    return render(request, "core/home.html")
+def blog(request):
+    return render(request, "core/blog.html")
 
 def home(request):
-    return render(request, "core/home.html")
+    return render(request, "core/history.html")
 
-def home(request):
-    return render(request, "core/home.html")
+def other(request):
+    return render(request, "core/other.html")

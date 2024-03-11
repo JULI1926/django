@@ -5,7 +5,7 @@ def home(request):
     return render(request, "core/home.html")
 
 def services(request):
-    return render(request, "core/services.html")
+    return render(request, "core/service.html")
 
 def visit(request):
     return render(request, "core/visit.html")
@@ -16,7 +16,7 @@ def contact(request):
 def blog(request):
     return render(request, "core/blog.html")
 
-def home(request):
+def history(request):
     return render(request, "core/history.html")
 
 def other(request):

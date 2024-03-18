@@ -24,6 +24,8 @@ urlpatterns = [
     path('', include('core.urls')),
     #App services
     path('services/', include('services.urls')),
+    #App contact
+    path('contact/', include ('contact.urls')),
     #App admin
     path('admin/', admin.site.urls),
     

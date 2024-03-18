@@ -9,8 +9,7 @@ def home(request):
 def visit(request):
     return render(request, "core/visit.html")
 
-def contact(request):
-    return render(request, "core/contact.html")
+
 
 def blog(request):
     return render(request, "core/blog.html")
